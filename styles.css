@@ -1,0 +1,82 @@
+body {
+	font-size: 12px;
+}
+
+.brd {
+	border: 1px solid red;
+}
+
+.center {
+	text-align: center;
+}
+
+/*clears out form input box*/
+input:focus::-webkit-input-placeholder {
+	color:transparent;
+}
+
+input:focus:-moz-placeholder {
+	color:transparent;
+	}
+
+input:focus::-moz-placeholder {
+	color:transparent;
+	}
+
+input:focus:-ms-input-placeholder {
+	color:transparent;
+	}
+
+
+.top {
+	background-color: #024f93;
+	color: #FFF;
+	font-size: 18px;
+	margin-bottom: 7%;
+	min-height: 8vh;
+	position: relative;
+}
+
+.top a {
+	color: #FFF;
+}
+
+.top-content {
+	align-items: flex-end;
+	display: flex;
+	height: 100%;
+  justify-content: center;
+	padding-bottom: 8px;
+}
+
+.arrow {
+
+}
+
+.no-bottom {
+	margin-bottom: 0;
+}
+
+.form {
+	margin: 0 auto;
+}
+
+.form-control {
+	border: 0px;
+	border-bottom: 1px solid #464a4c;
+	border-radius: 0px;
+	/*opacity: 0.5;*/
+}
+
+.bday-text {
+	/*font-size: 12px;*/
+	padding: 10px;
+}
+
+.submit-btn {
+	background-color: #0079ff;
+	border-radius: 12px;
+	font-size: 20px;
+	height: 8vh;
+	width: 100%;
+}
