@@ -1,82 +1,112 @@
 body {
-	font-size: 12px;
+  font-size: 12px;
+  color: #828282;
 }
 
+a {
+  color: #0080ff;
+}
+
+
+/*guide box*/
 .brd {
-	border: 1px solid red;
+  border: 0px solid red;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
+
 
 /*clears out form input box*/
 input:focus::-webkit-input-placeholder {
-	color:transparent;
+  color: transparent;
 }
 
 input:focus:-moz-placeholder {
-	color:transparent;
-	}
+  color: transparent;
+}
 
 input:focus::-moz-placeholder {
-	color:transparent;
-	}
+  color: transparent;
+}
 
 input:focus:-ms-input-placeholder {
-	color:transparent;
-	}
-
+  color: transparent;
+}
 
 .top {
-	background-color: #024f93;
-	color: #FFF;
-	font-size: 18px;
-	margin-bottom: 7%;
-	min-height: 8vh;
-	position: relative;
+  background-color: #024f93;
+  color: #FFF;
+  font-size: 18px;
+  margin-bottom: 7%;
+  min-height: 8vh;
+  position: relative;
 }
 
 .top a {
-	color: #FFF;
+  color: #FFF;
 }
 
 .top-content {
-	align-items: flex-end;
-	display: flex;
-	height: 100%;
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
   justify-content: center;
-	padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .arrow {
-
+  padding: 5px;
 }
 
 .no-bottom {
-	margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.verify-box {
+  padding-bottom: 20px;
 }
 
 .form {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .form-control {
-	border: 0px;
-	border-bottom: 1px solid #464a4c;
-	border-radius: 0px;
-	/*opacity: 0.5;*/
+  border: 0px;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0px;
+  padding-bottom: 1px;
+}
+
+.has-float-label {
+  font-size: 10px;
 }
 
 .bday-text {
-	/*font-size: 12px;*/
-	padding: 10px;
+  padding: 10px;
 }
 
 .submit-btn {
-	background-color: #0079ff;
-	border-radius: 12px;
-	font-size: 20px;
-	height: 8vh;
-	width: 100%;
+  background-color: #0079ff;
+  border-radius: 12px;
+  font-size: 20px;
+  height: 8vh;
+  width: 100%;
+}
+
+.agreement {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    font-size: 10px;
+  }
+  .top {
+    font-size: 14px;
+  }
+  .arrow {
+    padding: 3px;
+  }
 }
